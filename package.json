@@ -3,7 +3,13 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "github src and dest for vinyl (gulp)",
-  "keywords": ["gulp", "vinyl", "gthub", "source", "destination"],
+  "keywords": [
+    "gulp",
+    "vinyl",
+    "gthub",
+    "source",
+    "destination"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,5 +20,8 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "vinyl-github-src": "^0.1.0"
   }
 }

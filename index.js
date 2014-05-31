@@ -1,5 +1,6 @@
-function vinylGithub () {
-  
-}
+var src = require('vinyl-github-src')
 
-module.exports = vinylGithub
+module.exports.src = src
+module.exports.dest = function () {
+  throw new Error('not implemented')
+}
